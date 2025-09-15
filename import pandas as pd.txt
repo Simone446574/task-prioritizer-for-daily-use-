@@ -1,0 +1,6 @@
+import pandas as pd
+
+tasks = pd.read_csv("tasks.csv")
+tasks['priority'] = tasks['importance']*2 + tasks['duration_minutes']/60
+tasks = tasks.sort_values('priority', ascending=False)
+print(tasks[['task','duration_minutes','importance','deadline','priority']])
