@@ -1,0 +1,7 @@
+task,duration_minutes,importance,deadline
+Email reply,15,2,Today
+Report draft,120,5,Tomorrow
+Grocery shopping,60,1,Today
+Team meeting,45,4,Today
+Workout,30,3,Today
+Read book,60,2,This week
